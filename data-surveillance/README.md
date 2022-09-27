@@ -9,7 +9,7 @@ All participants must sign a memorandum of agreement (MOA) to receive the aggreg
 
 
 ## Data Dictionary
-Data consist of weekly aggregate counts of CLI medical encounters for the 15 largest MHS markets based on DoD service member and beneficiary data. CLI forecasts should be based on the ESSENCe CLI definition as specified in Table A.1 of the [guidelines](https://github.com/cdcepi/DoD-CLI-forecast-data/collaboration-guidelines.docx). The short-term targets are the percent of outpatient, MTF encounters experiencing CLI one week, two weeks, three weeks, and four weeks ahead from the week of most recently provided data. A detailed description of the 
+Data consist of weekly aggregate counts of CLI medical encounters for the 15 largest MHS markets based on DoD service member and beneficiary data. CLI forecasts should be based on the ESSENCE CLI definition as specified in Table A.1 of the [guidelines](https://github.com/cdcepi/DoD-CLI-forecast-data/blob/main/collaboration-guidelines.docx). The short-term targets are the percent of outpatient, MTF encounters experiencing CLI one week, two weeks, three weeks, and four weeks ahead from the week of most recently provided data. A detailed description of the 
 fields included in the csv file is included below.
 
 ### `forecast_date`
@@ -23,7 +23,7 @@ Date in the format YYYY-MM-DD corresponding to the Saturday of the MMWR week of 
 
 ### `location`
 
-MHS market name. Name should appear exactly how it appears in the [guidelines](https://github.com/cdcepi/DoD-CLI-forecast-data/collaboration-guidelines.docx) Table A.2. column MARKET NAME (For Files).
+MHS market name. Name should appear exactly how it appears in the [guidelines](https://github.com/cdcepi/DoD-CLI-forecast-data/blob/main/collaboration-guidelines.docx) Table A.2. column MARKET NAME (For Files).
 
 (Examples: National_Capital_Region, Lejeune_Cherry_Point)
 
