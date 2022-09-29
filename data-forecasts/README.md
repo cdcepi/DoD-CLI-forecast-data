@@ -108,7 +108,7 @@ columns (in any order):
 No additional columns are allowed.
 
 Each row in the file is a single quantile forecast for a specific location. See the 
-[template](./wnv_forecasting_template.csv) for an example.
+[template](./AFHSD_IB_CLI_forecasting_template.csv) for an example.
 
 
 ### `forecast_date`
