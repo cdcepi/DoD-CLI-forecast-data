@@ -5,7 +5,7 @@ The Armed Forces Health Surveillance Division, Integrated Biosurveillance Branch
 This is the data repository for the DoD AFHSD-IB CLI Forecasting Collaboration (2022-2023).
 
 ### Eligibility
-All are welcome to participate in this challenge. Participants must complete a Defense Health Agency (DHA) Memorandum of Agreement (MOA) to receive weekly datasets. All datasets will be de-identified and aggregated to the MHS market-level and contain data from January 2020 through the current week. Participants do not need to provide forecasts for all locations or targets to participate. Historical and weekly datasets will be available on Github. An example of the weekly dataset along with a data dictionary have been provided along with this guideline.
+All are welcome to participate in this challenge. Participants must complete a Defense Health Agency (DHA) [Memorandum of Agreement (MOA)](https://github.com/cdcepi/DOD-CLI-forecast-data/blob/master/data-surveillance/Disease_Forecasting_Challenge_MOA_23AUG2022.docx) to receive weekly datasets. All datasets will be de-identified and aggregated to the MHS market-level and contain data from January 2020 through the current week. Participants do not need to provide forecasts for all locations or targets to participate. Historical and weekly datasets will be available on Github. An example of the weekly dataset along with a data dictionary have been provided along with this guideline.
 
 ### Participation
 To participate in the Challenge, please follow these steps:
@@ -15,7 +15,7 @@ To participate in the Challenge, please follow these steps:
 
 For information on submitting forecasts to this project, please see the 
 [submission instructions](./data-forecasts/README.md). Participating teams provide their 
-[forecasts](./data-forecasts/) in a [point and quantile-based format](./data-forecasts/README.md#Data-formatting) that will
+[forecasts](./data-forecasts/) in [point and quantile-based formats](./data-forecasts/README.md#Data-formatting) that will
 be internally evaluated by DoD according to [these specifications](./Evaluation.md). 
 
 ### Timeline
