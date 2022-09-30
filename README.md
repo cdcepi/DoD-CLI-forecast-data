@@ -9,7 +9,7 @@ All are welcome to participate in this challenge. Participants must complete a D
 
 ### Participation
 To participate in the Challenge, please follow these steps:
-1. [Request DoD CLI data](./data-surveillance/README.md) by sending a signed Defense Health Agency (DHA) Memorandum of Agreement (MOA) to <dha.ncr.health-surv.mbx.dodflucontest@mail.mil>.
+1. [Request DoD CLI data](./data-surveillance/README.md) by sending a signed Defense Health Agency (DHA) Memorandum of Agreement (MOA) to <dha.ncr.health-surv.mbx.dodflucontest@health.mil>.
 2. Prepare [metadata](./data-forecasts/README.md#Data-formatting) for your model.
 3. [Submit the forecast](./data-forecasts/README.md#Making-a-submission) by the deadlines.
 

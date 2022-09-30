@@ -117,7 +117,7 @@ Values in the `forecast_date` column must be a date in the format
 
     YYYY-MM-DD
 
-This is the date on which the forecasts were due to be submitted.  `forecast_date` should correspond
+This is the date on which the forecasts were due to be submitted. Note that all due dates fall on Wednesdays.  `forecast_date` should correspond
 and be redundant with the date in the filename, and is included here for internal completeness. 
 
 ### `target`
@@ -139,15 +139,16 @@ This is the date corresponding to the Saturday of the MMWR week of the forecaste
 
 Values in the `location` column consist of the MHS market name. Name should appear exactly how it appears according to the guidelines Table A.2. column MARKET NAME (For Files). The required location name format can also be found in the [location file](../data-locations/locations.csv).
 
+(Examples: National_Capital_Region, Lejeune_Cherry_Point)
+
+
 ### `type`
 
-Values in the `type` column should all be either the string "point" or "quantile".
+Values in the `type` column should all be either the character string "point" or "quantile".
 
 ### `quantile`
 
-Values in the `quantile` column are in the format
-
-    0.###
+Values are either "NA" if type="point", or a quantile in the format 0.### if type="quantile". 
 
 This value indicates the quantile for the `value` in this row.
 
@@ -161,7 +162,7 @@ Teams must provide the following 23 quantiles:
 
 ### `value`
 
-Values in the `value` column are non-negative real numbers indicating the prediction for this row.
+Values in the `value` column are non-negative real numbers indicating the "point" or "quantile" prediction for this row.
 
 
 Making a submission
