@@ -15,3 +15,4 @@ For example, “California-San Diego” or “Texas-Harris”. Forecast submissi
 checked to ensure that location names match those found in this csv file.
 - `population` is the county population size from the 2010 US Census.
 
+Additionally, the [MHS-Markets_Counties spreadsheet](https://github.com/cdcepi/DOD-CLI-forecast-data/blob/master/data-locations/MHS-Markets_Counties-within 30-miles.xlsx) is provided which documents the counties that are located within 30 miles of each of the MHS Market forecasting locations. Corresponding states and FIPS codes are also included.  
