@@ -11,7 +11,7 @@
         "3 wk ahead CLI pct",
         "4 wk ahead CLI pct"
       ],
-      "location": ["National_Capital_Region",
+      "locations": ["National_Capital_Region",
       "Tidewater",
       "San_Antonio",
       "Hawaii",
