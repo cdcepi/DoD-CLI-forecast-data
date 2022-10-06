@@ -1,6 +1,6 @@
 team_name: AFHSD
 model_name: ENSEMBLE
-model_abbr: afhsd-ensemble
+model_abbr: AFHSD-ENSEMBLE
 model_contributors: Mark Bova (AFHSD) <mark.l.bova.ctr@health.mil>, Michael Celone (AFHSD) <michael.j.celone.ctr@health.mil>
 website_url: https://www.health.mil/Military-Health-Topics/Health-Readiness/AFHSD
 license: cc-by-4.0
