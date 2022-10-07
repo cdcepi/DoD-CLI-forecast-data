@@ -1,16 +1,16 @@
-﻿MARKET NAME (FORMAL),MARKET NAME (FOR FILES)
-National Capital Region,National_Capital_Region
-Tidewater,Tidewater
-San Antonio,San_Antonio
-Hawaii,Hawaii
-San Diego,San_Diego
-Bragg/Pope,Bragg_Pope
-Hood,Hood
-Colorado Springs,Colorado_Springs
-Bliss/White Sands,Bliss_White_Sands
-Lejeune/Cherry Point,Lejeune_Cherry_Point
-Lewis/McCord,Lewis_McChord
-Pensacola/Eglin,Pensacola_Eglin
-Benning,Benning
-Jacksonville,Jacksonville
-Campbell,Campbell
+﻿MARKET NAME (FORMAL),MARKET NAME (FOR FILES),location,population
+National Capital Region,National_Capital_Region,National_Capital_Region,10000000
+Tidewater,Tidewater,Tidewater,10000000
+San Antonio,San_Antonio,San_Antonio,10000000
+Hawaii,Hawaii,Hawaii,10000000
+San Diego,San_Diego,San_Diego,10000000
+Bragg/Pope,Bragg_Pope,Bragg_Pope,10000000
+Hood,Hood,Hood,10000000
+Colorado Springs,Colorado_Springs,Colorado_Springs,10000000
+Bliss/White Sands,Bliss_White_Sands,Bliss_White_Sands,10000000
+Lejeune/Cherry Point,Lejeune_Cherry_Point,Lejeune_Cherry_Point,10000000
+Lewis/McCord,Lewis_McChord,Lewis_McChord,10000000
+Pensacola/Eglin,Pensacola_Eglin,Pensacola_Eglin,10000000
+Benning,Benning,Benning,10000000
+Jacksonville,Jacksonville,Jacksonville,10000000
+Campbell,Campbell,Campbell,10000000
