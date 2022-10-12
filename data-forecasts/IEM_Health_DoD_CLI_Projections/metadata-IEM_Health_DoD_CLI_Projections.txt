@@ -1,0 +1,11 @@
+team_name: IEM Health
+model_name: DoD_CLI_Projections
+model_abbr: IEM_Health-DoD_CLI_Projections
+model_contributors: Brad Suchoski (IEM) <bradley.suchoski@iem.com>, Steve Stage (IEM) <steve.stage@iem.com>,
+  Heidi Gurung (IEM) <heidi.gurung@iem.com>, Sid Baccam (IEM) <sid.baccam@iem.com>, Jamie Dixon (IEM) <jamie.dixon@iem.com>
+website_url: https://iem.com/
+license: cc-by-4.0
+team_model_designation: primary
+ensemble_of_hub_models: false
+methods: Deterministic SEIR model of CLI encounters with and outer Markov Chain Monte Carlo loop for parameter inferencing
+data_inputs: DoD CLI Encounters
