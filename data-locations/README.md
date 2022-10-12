@@ -8,7 +8,7 @@ Columns:
 - `MARKET NAME (FORMAL)` is the formally recognized MHS market name.
 - `MARKET NAME (FOR FILES)` is an adapted version of the MHS market name using "_" in place of other special characters.
 - `location` is a character string matching `MARKET NAME (FOR FILES)`. This is the variable that should be included in forecast submissions. 
-For example, ‚ÄúSan_AntonioÄù or ‚ÄúLewis_McChordÄù. Forecast submissions will be 
+For example, "San_Antonio" or "Lewis_McChord". Forecast submissions will be 
 checked to ensure that location names match those found in this csv file.
 - `population` is a variable used in the submission validation process. Since forecasting targets for this collaboration are % CLI values, the validation process will check that submitted values are less than or equal to 100. 
 
