@@ -1,16 +1,15 @@
 team_name: Predictive Science Inc
 model_name: Statistical Training And Time-series-conditioning Suite
 model_abbr: PSI-STATS
-model_contributors:
-      	Michal Ben-Nun, mbennun@predsci.com
-	Pete Riley, pete@predsci.com
-	Jamie Turtle, jturtle@predsci.com
+model_contributors: Michal Ben-Nun <mbennun@predsci.com>, James Turtle <jturtle@predsci.com>, Pete
+  Riley <pete@predsci.com>
 website_url: https://predsci.com
-license: cc-by-4.0
+license: 'cc-by-4.0'
 team_model_designation: primary
 ensemble_of_hub_models: false
-methods: Forecasts are produced using a suite of statistical models and data pre-conditioning
-      routines.  Retrospective analysis of backfill is used to nowcast the current state of 
-      the data.
+methods: 'Forecasts are produced using a suite of statistical models and data pre-conditioning 
+  routines.  Retrospective analysis of backfill is used to nowcast the current state of the data.'
 team_funding: CSTE
 data_inputs: Initially, we use only the supplied market-level CLI data.
+
+  
