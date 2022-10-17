@@ -168,6 +168,8 @@ Making a submission
 
 ### Initial submission
 
+Contact <dha.ncr.health-surv.mbx.dodflucontest@health.mil> to submit your initial forecast file submission. Metadata and optional license files can be emailed directly or added to this repository using a pull request (see instructions below). 
+
 To prepare for the initial submission, fork this repository and clone it to your computer/work station/etc. In the
 forked repository you created, make a [subdirectory](https://github.com/cdcepi/DoD-CLI-forecast-data/blob/main/data-forecasts/README.md#subdirectory) 
 for your team in the [data-forecasts/](./) folder following the subdirectory [naming convention](https://github.com/cdcepi/DoD-CLI-forecast-data/blob/main/data-forecasts/README.md#subdirectory). This is where you will place all your metadata, and 
@@ -178,7 +180,7 @@ to create your submission. Open a pull request from your forked repository to th
 With the pull request, automatic validation checks on file format and content are run. More information on making a pull request can be found 
 [here](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/).
 
-Contact <dha.ncr.health-surv.mbx.dodflucontest@health.mil> to submit your initial forecast file submission. Metadata and optional license files can be emailed directly or added using a pull request. 
+
 
 When a pull request is open, you can add/modify files in the pull request by pushing changes from your forked repo. 
 This will allow you to address any problems found during the validation checks. Automatic checks run after each push 
