@@ -2,16 +2,14 @@ Forecast submission instructions
 ============================
 
 This page is intended to provide teams with all the information they
-need to submit forecasts. These instructions have been adapted from the [COVID-19 Forecast Hub](https://github.com/reichlab/covid19-forecast-hub).
+need to submit forecasts. 
 
-All forecasts should be [submitted directly](#Making-a-submission) to
-the [data-forecasts/](./) folder. Data in this directory should be added
-to the repository through a pull request so that automatic data validation checks are run.
+*Update:* All forecasts should be emailed to <dha.ncr.health-surv.mbx.dodflucontest@health.mil>. 
 
 These instructions provide detail about the [data
 format](#Data-formatting) as well as [validation](#Forecast-validation) that
 you can do prior to this pull request. In addition, we describe
-[metadata](https://github.com/cdcepi/DoD-CLI-forecast-data/blob/master/data-forecasts/METADATA.md) that each model should provide.
+[metadata](https://github.com/cdcepi/DoD-CLI-forecast-data/blob/master/data-forecasts/METADATA.md) that each model should provide either through email or submitted in a pull request to [data-forecasts/](data-forecasts/).
 
 See the [guidelines](https://github.com/cdcepi/DoD-CLI-forecast-data/blob/main/collaboration-guidelines.docx) and [data-surveillance/](https://github.com/cdcepi/DoD-CLI-forecast-data/tree/main/data-surveillance) folder for 
 the ESSENCE CLI case definition and an example data file. 
@@ -28,8 +26,8 @@ the ESSENCE CLI case definition and an example data file.
 Data formatting
 ---------------
 
-The automatic checks in place for forecast files submitted to this repository validates both the filename and 
-file contents to ensure the file can be used in the visualization and ensemble forecasting.
+Forecast files submitted to this collaboration should adhere to the below formatting instructions  
+to ensure the file can be used in the visualization and ensemble forecasting.
 
 ### Subdirectory
 
@@ -70,7 +68,7 @@ file in your model directory.
 
 ### Forecasts
 
-Each forecast file within the subdirectory should have the following
+Each forecast file should have the following
 format
 
     YYYY-MM-DD-team-model.csv
@@ -170,27 +168,28 @@ Making a submission
 
 ### Initial submission
 
+Contact <dha.ncr.health-surv.mbx.dodflucontest@health.mil> to submit your initial forecast file submission. Metadata and optional license files can be emailed directly or added to this repository using a pull request (see instructions below). 
+
 To prepare for the initial submission, fork this repository and clone it to your computer/work station/etc. In the
 forked repository you created, make a [subdirectory](https://github.com/cdcepi/DoD-CLI-forecast-data/blob/main/data-forecasts/README.md#subdirectory) 
-for your team in the [data-forecasts/](./) folder following the subdirectory [naming convention](https://github.com/cdcepi/DoD-CLI-forecast-data/blob/main/data-forecasts/README.md#subdirectory). This is where you will place all your forecasts, metadata, and 
+for your team in the [data-forecasts/](./) folder following the subdirectory [naming convention](https://github.com/cdcepi/DoD-CLI-forecast-data/blob/main/data-forecasts/README.md#subdirectory). This is where you will place all your metadata, and 
 optional license files.
 
 Use a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) 
 to create your submission. Open a pull request from your forked repository to the original repo. This will initiate merging your changes into the main repo.
-With the pull request, automatic data validation checks on file format and content are run. More information on making a pull request can be found 
+With the pull request, automatic validation checks on file format and content are run. More information on making a pull request can be found 
 [here](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/).
 
-The initial submission should include the forecast for April 30 and the metadata file describing the model. An optional license file can also be included.
-Note, validations will fail if there are other commits than just these files in the pull request. Teams are encouraged to submit early for the initial submission to work out the kinks of pull requests and validations. Submissions can be updated at any point prior to the submission deadline. Note that if you submit more than a day before the first submission deadline (October 12, 2022), the automatic validations
-will flag the submission, but this is not a problem assuming the rest of the checks pass successfully.
+
 
 When a pull request is open, you can add/modify files in the pull request by pushing changes from your forked repo. 
 This will allow you to address any problems found during the validation checks. Automatic checks run after each push 
 so you can check if you were able to resolve the problems listed.
 
 Common reasons for a failed pull request: Excel changing the date format upon saving the .csv, misspelled column headers or keys in the metadata
+While pull requests through this repository will not be required for this collaboration, ensuring that these formatting features are correct will aid in forecast interpretation and ensembling.
 
-We will merge in open pull requests after each submission deadline.
+Pull requests including metadata or license files will be merged as submitted. However, forecast files should be emailed directly to <dha.ncr.health-surv.mbx.dodflucontest@health.mil>.
 
 
 
@@ -204,12 +203,10 @@ To ensure proper data formatting, automatic validations are run on all pull requ
 
 When a pull request is submitted, the data are validated through [Github Actions](https://docs.github.com/en/actions) 
 which runs the tests present in [the validations repository](https://github.com/reichlab/covid19-forecast-hub-validations). The intent
-for these tests are to validate the requirements above. 
-Please [let us know](https://github.com/cdcepi/DoD-CLI-forecast-data/issues) if you are facing issues while running the tests.
+for these tests are to validate the requirements above. Due to differences between the DOD-CLI forecasting collaboration and other forecasting challenges, forecast files for this collaboration will now be submitted by email <dha.ncr.health-surv.mbx.dodflucontest@health.mil>. Questions and concerns can also be emailed directly. 
 
 
 Policy on late or updated submissions
 ------------------
 
-In order to ensure that forecasting is done in real-time, all forecasts are requested to be submitted to this 
-repository by the listed [deadlines](https://github.com/cdcepi/DoD-CLI-forecast-data2#timeline). 
+In order to ensure that forecasting is done in real-time, all forecasts are requested to be emailed by the listed [deadlines](https://github.com/cdcepi/DoD-CLI-forecast-data2#timeline). 
