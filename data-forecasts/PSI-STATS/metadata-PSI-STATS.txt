@@ -1,4 +1,4 @@
-team_name: Predictive Science Inc
+team_name: Predictive Science Inc.
 model_name: Statistical Training And Time-series-conditioning Suite
 model_abbr: PSI-STATS
 model_contributors: Michal Ben-Nun <mbennun@predsci.com>, James Turtle <jturtle@predsci.com>, Pete
@@ -9,7 +9,13 @@ team_model_designation: primary
 ensemble_of_hub_models: false
 methods: 'Forecasts are produced using a suite of statistical models and data pre-conditioning 
   routines.  Retrospective analysis of backfill is used to nowcast the current state of the data.'
-team_funding: CSTE
+team_funding: CDC/CSTE Cooperative Agreement number NU38OT00029
 data_inputs: Initially, we use only the supplied market-level CLI data.
-
+methods_long: "For each market we first estimate the correction to the time-series due to\
+  \ under-reporting. Once we have a nowcast time-series it is smoothed using three methods: moving\
+  \ average, double moving average and a spline. We then perform a retrospective fit/forecast on\
+  \ each of the three time-series and the nowcast data and calculate the error of the forecasts for\
+  \ each one.  We select the time-series with the lowest error and use that one for the fit/forecast.\
+  \ An auto-ARIMA is used for the fit/forecast and the quantiles are generated assuming a normal\
+  \ distribution of the forecast."
   
