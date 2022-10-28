@@ -1,0 +1,9 @@
+team_name: Signature Science
+model_name: Time series model ensemble
+model_abbr: SigSci-TSENS
+model_contributors: VP Nagraj (Signature Science) <pnagraj@signaturescience.com>, Stephen D. Turner (Signature Science) <sturner@signaturescience.com>
+website_url: http://www.signaturescience.com/
+license: cc-by-4.0
+team_model_designation: primary
+methods: Ensemble of time series models for COVID-like illness in US Military Health Service markets.
+ensemble_of_hub_models: false
